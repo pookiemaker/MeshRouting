@@ -4,6 +4,7 @@ http://wiki.prplfoundation.org/wiki/Building_OpenWrt  -- qemu build
 https://www.open-mesh.org/projects/open-mesh/wiki/Emulation -- batman-adv emulation
 scapy -- python making raw packets
 arduino ethernet library
+http://docs.battlemesh.org/index.html
 
 # Telemetry things. 
 
