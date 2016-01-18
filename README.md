@@ -1,12 +1,16 @@
 # MeshRouting
 
+* https://downloads.open-mesh.org/batman/papers/Improving%20BATMAN%20Routing%20Stability%20and%20Performance.pdf 
+** Thesis describing and enforcing Routing algorith. Only thing still vaugue is how TQ is actually calculated. I think it is a simple add one and shift for the sliding window, but there is also another factor called HOP_PENALTY
+* http://eprints.biblio.unitn.it/2269/1/report.pdf
+** Another thesis -- describing roaming and client announcement
+
+
 http://wiki.prplfoundation.org/wiki/Building_OpenWrt  -- qemu build
 https://www.open-mesh.org/projects/open-mesh/wiki/Emulation -- batman-adv emulation
 scapy -- python making raw packets
 arduino ethernet library
 http://docs.battlemesh.org/index.html
-http://eprints.biblio.unitn.it/2269/1/report.pdf -- flat address space issues (MAC routing) Client announcement, roaming
-https://downloads.open-mesh.org/batman/papers/Improving%20BATMAN%20Routing%20Stability%20and%20Performance.pdf -- good paper describing
 
 # Specific BATMAN-adv notes
 B.A.T.M.A.N. can be treated as distance-vector despite it is based on periodic
