@@ -5,6 +5,15 @@ https://www.open-mesh.org/projects/open-mesh/wiki/Emulation -- batman-adv emulat
 scapy -- python making raw packets
 arduino ethernet library
 http://docs.battlemesh.org/index.html
+http://eprints.biblio.unitn.it/2269/1/report.pdf -- flat address space issues (MAC routing)
+https://downloads.open-mesh.org/batman/papers/Improving%20BATMAN%20Routing%20Stability%20and%20Performance.pdf -- good paper describing
+
+# Specific BATMAN-adv notes
+B.A.T.M.A.N. can be treated as distance-vector despite it is based on periodic
+source initiated flooding of OGMs to propagate routing table updates. This
+particularity does not modify the protocol classification, as in any case the routing
+algorithm used is the Bellman Ford one -- find reference
+
 
 # Telemetry things. 
 
